@@ -7,7 +7,7 @@ function findMax(nums: number[]): number {
 
     for (const num of nums) {
         if(num > max) {
-            max = nums;
+            max = num;
         }
     }
     return max;
